@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyAnzInterviewTask</string>
+    <string name="loading">Loading</string>
 </resources>
