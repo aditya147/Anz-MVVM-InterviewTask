@@ -88,4 +88,11 @@ dependencies {
     implementation ("androidx.navigation:navigation-compose:2.5.3")
     implementation("io.coil-kt:coil-compose:2.5.0")
 
+    // testing ViewModel & coroutines
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation ("app.cash.turbine:turbine:1.0.0")
+
+    // mocking dependencies
+    testImplementation ("io.mockk:mockk:1.13.7")
+    testImplementation ("junit:junit:4.13.2")
 }
